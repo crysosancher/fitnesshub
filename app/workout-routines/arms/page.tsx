@@ -2,8 +2,8 @@
 // import { Badge, Button, Card, Group, Paper, Text } from '@mantine/core';
 import Image from 'next/image';
 import React from 'react';
-import NavBar from '../_components/NavBar';
-import Footer from '../_components/Footer';
+import NavBar from '../../_components/NavBar';
+import Footer from '../../_components/Footer';
 import { Paper } from '@mantine/core';
 
 const page = () => {

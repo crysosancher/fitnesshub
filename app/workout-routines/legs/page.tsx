@@ -1,6 +1,6 @@
 import React from 'react';
-import NavBar from '../_components/NavBar';
-import Footer from '../_components/Footer';
+import NavBar from '../../_components/NavBar';
+import Footer from '../../_components/Footer';
 
 const page = () => {
 	return (
@@ -10,11 +10,11 @@ const page = () => {
 			<div className=" w-full grid grid-rows-1 grid-cols-1  md:grid-cols-2 gap-2">
 				<iframe
 					className="rounded-xl "
-					allowfullscreen="allowfullscreen"
-					mozallowfullscreen="mozallowfullscreen"
-					msallowfullscreen="msallowfullscreen"
-					oallowfullscreen="oallowfullscreen"
-					webkitallowfullscreen="webkitallowfullscreen"
+					allowFullScreen={true} // Correct property name and boolean value
+					mozAllowFullScreen={true} // Correct property name and boolean value
+					msAllowFullScreen={true} // Correct property name and boolean value
+					oAllowFullScreen={true} // Correct property name and boolean value
+					webkitAllowFullScreen={true}
 					width="600"
 					height="315"
 					src="https://www.youtube.com/embed/T78xCiw_R6g?rel=0&amp;autoplay=1&mute=1" //embed video for iframe
@@ -48,11 +48,11 @@ const page = () => {
 				<div className="">
 					<iframe
 						className="rounded-xl"
-						allowfullscreen="allowfullscreen"
-						mozallowfullscreen="mozallowfullscreen"
-						msallowfullscreen="msallowfullscreen"
-						oallowfullscreen="oallowfullscreen"
-						webkitallowfullscreen="webkitallowfullscreen"
+						allowFullScreen={true} // Correct property name and boolean value
+						mozAllowFullScreen={true} // Correct property name and boolean value
+						msAllowFullScreen={true} // Correct property name and boolean value
+						oAllowFullScreen={true} // Correct property name and boolean value
+						webkitAllowFullScreen={true}
 						width="600"
 						height="315"
 						src="https://www.youtube.com/embed/T78xCiw_R6g?rel=0&amp;autoplay=1&mute=1" //embed video for iframe

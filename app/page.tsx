@@ -9,6 +9,7 @@ export default function Home() {
 		<main className="parent-container h-0 box-border">
 			<NavBar />
 			<Hero />
+
 			<Footer />
 		</main>
 	);
