@@ -37,7 +37,7 @@ const NavBar = () => {
 							<RxHamburgerMenu onClick={() => setMenuOpen(!menuOpen)} />
 						</div>
 						{/* Show menu items directly on larger screens */}
-						<div className="hidden lg:flex items-center gap-2">
+						{/* <div className="hidden lg:flex items-center gap-2">
 							<span className="flex">
 								<CiHome />
 								Home
@@ -47,7 +47,7 @@ const NavBar = () => {
 								<CiPhone />
 								Contact Us
 							</span>
-						</div>
+						</div> */}
 					</div>
 				</div>
 

@@ -4,11 +4,10 @@ import React from 'react';
 interface CardProps {
 	img: string;
 	title: string;
-	desc: string;
 	onClick: () => void; // Add onClick to the props interface
 }
 
-const Card: React.FC<CardProps> = ({ img, title, desc, onClick }) => {
+const Card: React.FC<CardProps> = ({ img, title, onClick }) => {
 	return (
 		<div
 			onClick={onClick}
@@ -16,19 +15,16 @@ const Card: React.FC<CardProps> = ({ img, title, desc, onClick }) => {
 		>
 			{' '}
 			{/* Add cursor-pointer for pointer cursor on hover */}
-			<div className="border-4 border-blue-900 rounded-3xl p-6 w-[700px] h-[250px] bg-[#F8F8F8] shadow-lg transform transition duration-300 hover:scale-105 m-5">
-				<div className="flex">
-					<Image
-						className="transform transition duration-300 hover:scale-105"
-						src={img}
-						alt="Your Muscle Image"
-						width={200}
-						height={200}
-					/>
-					<div className="flex flex-col justify-center ml-4">
-						<strong className="text-2xl uppercase">{title}</strong>
-						<div>{desc}</div>
-					</div>
+			<div className=" flex justify-between rounded-2xl w-[95%] h-[140px] bg-[#F8F8F8] shadow-lg transform transition duration-300 hover:scale-105 m-5">
+				<Image
+					className="  rounded-xl transform transition duration-300 "
+					src={img}
+					alt="Your Muscle Image"
+					width={100}
+					height={100}
+				/>
+				<div className="flex flex-col justify-center ml-4">
+					<strong className=" text-2xl ">{title}</strong>
 				</div>
 			</div>
 		</div>

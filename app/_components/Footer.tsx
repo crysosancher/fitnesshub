@@ -3,27 +3,6 @@ import React from 'react';
 const Footer = () => {
 	return (
 		<>
-			<div className="flex flex-col text-center ">
-				<div className="font-bold mt-[42px]">Products</div>
-				<div>Elite Membership</div>
-				<div>Coach</div>
-				<div>Signup</div>
-				<div>Login</div>
-			</div>
-			<div className="flex flex-col text-center ">
-				<div className="font-bold mt-[42px]">Products</div>
-				<div>Elite Membership</div>
-				<div>Coach</div>
-				<div>Signup</div>
-				<div>Login</div>
-			</div>
-			<div className="flex flex-col text-center ">
-				<div className="font-bold mt-[42px]">Products</div>
-				<div>Elite Membership</div>
-				<div>Coach</div>
-				<div>Signup</div>
-				<div>Login</div>
-			</div>
 			<div className="bg-[#fcfcfc]  ">
 				<footer className="bg-white rounded-lg shadow m-4 dark:bg-gray-800">
 					<div className="w-full mx-auto max-w-screen-xl p-4 md:flex md:items-center md:justify-between">

@@ -11,84 +11,48 @@ const WorkoutRoutines = () => {
 			<div className="secondary-header   justify-start">
 				<Title title="Workout Routines" />
 
-				<div className="grid grid-rows-3 grid-cols-2 gap-2">
+				<div className="">
 					<Card
 						onClick={() => {
 							router.push('/workout-routines/abs');
 						}}
-						title="abs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-abs.png"
-						desc="Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength."
+						title="Abs"
+						img="https://e1.pxfuel.com/desktop-wallpaper/140/792/desktop-wallpaper-boys-abs-abs.jpg"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/workout-routines/abs');
 						}}
-						title="abs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-abs.png"
-						desc="Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength."
+						title="Chest"
+						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-chest.png"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/workout-routines/abs');
 						}}
-						title="abs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-abs.png"
-						desc="Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength."
+						title="Back"
+						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-back.png"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/abs');
 						}}
-						title="abs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-abs.png"
-						desc="Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength."
+						title="Legs"
+						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-legs.png"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/abs');
 						}}
-						title="abs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-abs.png"
-						desc="Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength."
+						title="Shoulders"
+						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-shoulders.png"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/abs');
 						}}
-						title="abs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-abs.png"
-						desc="Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength.
-								Strong abs enhance your core
-								stability, supporting better posture and overall strength."
+						title="Arms"
+						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-arms.png"
 					/>
 				</div>
 			</div>
