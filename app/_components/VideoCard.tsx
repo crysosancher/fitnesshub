@@ -15,10 +15,6 @@ const VideoCard: React.FC<VideoCardProps> = ({ iframe }) => {
 					<iframe
 						className=" transform transition duration-300 sm:min-h-[300px]"
 						allowFullScreen={true}
-						mozAllowFullScreen={true}
-						msAllowFullScreen={true}
-						oAllowFullScreen={true}
-						webkitAllowFullScreen={true}
 						src={iframe}
 					/>
 					<div className="m-3 ">
