@@ -15,10 +15,6 @@ const VideoCard: React.FC<VideoCardProps> = ({ iframe }) => {
 					<iframe
 						className=" transform transition duration-300 h-64  w-[100%]"
 						allowFullScreen={true} // Correct property name and boolean value
-						mozAllowFullScreen={true} // Correct property name and boolean value
-						msAllowFullScreen={true} // Correct property name and boolean value
-						oAllowFullScreen={true} // Correct property name and boolean value
-						webkitAllowFullScreen={true}
 						src={iframe}
 					/>
 				</div>
