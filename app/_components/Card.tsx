@@ -24,7 +24,7 @@ const Card: React.FC<CardProps> = ({ img, title, onClick }) => {
 					height={100}
 				/>
 				<div className="flex flex-col justify-center ml-4">
-					<strong className=" text-2xl ">{title}</strong>
+					<strong className="text-2xl m-3">{title}</strong>
 				</div>
 			</div>
 		</div>

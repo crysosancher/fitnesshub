@@ -8,7 +8,7 @@ const WorkoutRoutines = () => {
 	const router = useRouter();
 	return (
 		<>
-			<div className="secondary-header   justify-start">
+			<div className="secondary-header">
 				<Title title="Workout Routines" />
 
 				<div className="">
@@ -24,35 +24,35 @@ const WorkoutRoutines = () => {
 							router.push('/workout-routines/abs');
 						}}
 						title="Chest"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-chest.png"
+						img="https://e1.pxfuel.com/desktop-wallpaper/140/792/desktop-wallpaper-boys-abs-abs.jpg"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/workout-routines/abs');
 						}}
 						title="Back"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-back.png"
+						img="https://e1.pxfuel.com/desktop-wallpaper/140/792/desktop-wallpaper-boys-abs-abs.jpg"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/abs');
 						}}
 						title="Legs"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-legs.png"
+						img="https://e1.pxfuel.com/desktop-wallpaper/140/792/desktop-wallpaper-boys-abs-abs.jpg"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/abs');
 						}}
 						title="Shoulders"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-shoulders.png"
+						img="https://e1.pxfuel.com/desktop-wallpaper/140/792/desktop-wallpaper-boys-abs-abs.jpg"
 					/>
 					<Card
 						onClick={() => {
 							router.push('/abs');
 						}}
 						title="Arms"
-						img="https://www.muscleandfitness.com/wp-content/themes/muscle-and-fitness/assets/build/images/body-parts/body-part-arms.png"
+						img="https://e1.pxfuel.com/desktop-wallpaper/140/792/desktop-wallpaper-boys-abs-abs.jpg"
 					/>
 				</div>
 			</div>
