@@ -11,10 +11,6 @@ const page = () => {
 				<iframe
 					className="rounded-xl "
 					allowFullScreen={true} // Correct property name and boolean value
-					mozAllowFullScreen={true} // Correct property name and boolean value
-					msAllowFullScreen={true} // Correct property name and boolean value
-					oAllowFullScreen={true} // Correct property name and boolean value
-					webkitAllowFullScreen={true}
 					width="600"
 					height="315"
 					src="https://www.youtube.com/embed/T78xCiw_R6g?rel=0&amp;autoplay=1&mute=1" //embed video for iframe
@@ -49,10 +45,6 @@ const page = () => {
 					<iframe
 						className="rounded-xl"
 						allowFullScreen={true} // Correct property name and boolean value
-						mozAllowFullScreen={true} // Correct property name and boolean value
-						msAllowFullScreen={true} // Correct property name and boolean value
-						oAllowFullScreen={true} // Correct property name and boolean value
-						webkitAllowFullScreen={true}
 						width="600"
 						height="315"
 						src="https://www.youtube.com/embed/T78xCiw_R6g?rel=0&amp;autoplay=1&mute=1" //embed video for iframe
